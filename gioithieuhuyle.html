@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Trang web giới thiệu bản thân của Lê Văn Huy -->
+<html lang="vi">
+<head>
+    <!-- Thiết lập meta tags cho trang web -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+    <!-- Liên kết tới file CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Container chính chứa toàn bộ nội dung -->
+    <div class="container">
+        <!-- Ảnh đại diện -->
+        <img src="IMAGES/ABC.jpg" alt="Ảnh đại diện" class="profile-img">
+        <!-- Tên và chức vụ -->
+        <h1>Lê Văn Huy</h1>
+        <p class="subtitle">Sinh Viên</p>
+        
+        <!-- Phần giới thiệu -->
+        <div class="section">
+            <h2>Giới thiệu</h2>
+            <p>Tôi là Huy, đam mê với công nghệ, thích học hỏi và sáng tạo trong các dự án.</p>
+        </div>
+        
+        <!-- Phần kỹ năng -->
+        <div class="section">
+            <h2>Kỹ năng</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Python</span>
+                <span class="skill">React</span>
+            </div>
+        </div>
+        
+        <!-- Phần kinh nghiệm -->
+        <div class="section">
+            <h2>Kinh nghiệm</h2>
+            <p>Mô tả kinh nghiệm của bạn. Ví dụ: Tôi đã tham gia phát triển nhiều dự án web và có kinh nghiệm với các framework hiện đại.</p>
+        </div>
+        
+        <!-- Phần liên hệ -->
+        <div class="section">
+            <h2>Liên hệ</h2>
+            <div class="contact">
+                <a href="mailto:levanhuy042007@gmail.com">Email</a>
+                <a href="https://github.com/lvhuy-tech" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <!-- Nút toggle audio -->
+    <button id="audio-toggle" class="audio-btn">🔊 Bật Nhạc</button>
+    <!-- Thẻ audio ẩn -->
+    <audio id="background-audio" loop>
+        <source src="audio/music.mp4" type="audio/mp4">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+    <!-- Liên kết tới file JavaScript -->
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
